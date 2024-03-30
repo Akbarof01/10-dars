@@ -41,9 +41,9 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(25%, auto));
-  max-width: 100%;
-  width: var(--max-width);
+  grid-template-columns: repeat(2, minmax(25%, auto));
+  max-width: var(--max-width);
+  width: 100%;
 }
 
 .card {
@@ -70,7 +70,6 @@
   font-size: 0.9rem;
   line-height: 1.5;
   max-width: 30ch;
-  text-wrap: balance;
 }
 
 .center {
@@ -133,7 +132,7 @@
   }
 
   .grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 4fr;
     margin-bottom: 120px;
     max-width: 320px;
     text-align: center;
